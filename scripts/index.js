@@ -83,7 +83,7 @@ button.addEventListener("click", () => {
     // un mensaje de bienvenida al sitio.
 
     document.querySelector("form").classList.add("hidden");
-    document.querySelector("main").innerHTML = "<h1>Bienvenido al sitio 😀</h1>";
+    document.querySelector("main").innerHTML = `<h1>Bienvenido al sitio 😀</h1><br><h2><b>${usuario.name}</b></h2>`
     estado.classList.add("hidden");
 
   }, 3000);
